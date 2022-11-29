@@ -1,0 +1,36 @@
+._content_ctr{
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+    margin: 25px auto;
+    /* align-items: center; */
+}
+._content_txt{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    margin: 0 0 10px;
+    display: table;
+}
+._content_txt h1{
+    color: #212529;
+    display: table;
+    font-size: 2.5rem;
+}
+._content_txt h4{
+    font-size: 1.4rem;
+    color: #444;
+    margin-top: 10px;
+}
+.img_ctr img{
+    width: 30rem;
+    height: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+i{
+    font-size: 18px;
+    background: #fff;
+    border-radius: 50%;
+    color: #000;
+}

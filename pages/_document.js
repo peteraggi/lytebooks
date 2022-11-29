@@ -4,8 +4,8 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta name="description" content="Shop Online with plus" />
-        <link rel="icon" href="/logos/plus_logo_color.png" />
+        <meta name="description" content="Inventory management system" />
+        <link rel="icon" href="" />
         <link
           rel="stylesheet"
           href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
