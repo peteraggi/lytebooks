@@ -1,5 +1,90 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(242, 242, 242);
+  height: 15vh;
+  padding: 0px 50px;
+}
+.h-logo {
+  padding-top: 10px;
+  display: flex;
+}
+.h-links {
+  display: flex;
+  padding-top: 25px;
+}
+.h-links div {
+  padding: 0px 10px 0px 10px;
+}
+
+.f-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  padding: 12px 16px;
+  z-index: 1;
+  padding: 10px;
+}
+.f-dropdown p {
+  padding: 10px;
+}
+.f-dropdown p:hover {
+  color: blue;
+  cursor: pointer;
+}
+.features:hover .f-dropdown {
+  display: block;
+}
+.btn-optn {
+  display: none;
+}
+.btn-org {
+  display: block;
+}
+.lyte-optn {
+  display: none;
+}
+@media only screen and (max-width: 858px) {
+  .header {
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: rgb(242, 242, 242);
+    height: 15vh;
+    padding: 0px 0px;
+    width: 100%;
+  }
+  .h-logo,
+  .h-links {
+    background-color: rgb(242, 242, 242);
+  }
+  .h-logo img {
+    display: none;
+  }
+  .lyte-org {
+    display: none;
+  }
+  .h-logo h1 {
+    font-size: smaller;
+  }
+  .btn {
+    size: small;
+  }
+  .btn-optn {
+    display: block;
+  }
+  .btn-org {
+    display: none;
+  }
+  .lyte-optn {
+    display: block;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
 }
